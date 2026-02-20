@@ -22,7 +22,7 @@ public class Televisao {
         this.canal = canal;
     }
     public void setLigada(boolean ligada){
-        this.ligada = true;
+        this.ligada = ligada;
     }
     
     public String getModelo(){

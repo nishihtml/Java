@@ -51,7 +51,7 @@ public class TelevisaoMain {
             System.out.printf(     "Preco.......: %.2fl RS$ \n", tv2.getPreco());
             System.out.printf(     "Tamanho.....: %.2fl cm \n", tv2.getTamanho());
             System.out.println(    "Volume......: " + tv2.getVolume());
-            System.out.println(    "Canal......: " + tv2.getCanal());
+            System.out.println(    "Canal.......: " + tv2.getCanal());
             System.out.println(    "----------.-------------------------");
             if(tv2.getLigada() == true){
                 System.out.println("Status......: Ligada");
