@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.lab03exe02;
 
-/**
- *
- * @author unifgnishi
- */
 public class ContaComum {
+    protected int numero, senha;
+    protected double saldo;
     
+    public void setNumero(int numero){
+        this.numero = numero;
+    }
+    public void setSenha(int senha){
+        this.senha = senha;
+    }
+    public void setSaldo(double saldo){
+        this.saldo = saldo;
+    }
+    
+    public int getNumero(){
+        return this.numero;
+    }
+    public int getSenha(){
+        return this.senha;
+    }
+    public double getSaldo(){
+        return this.saldo;
+    }
 }

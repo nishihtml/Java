@@ -1,13 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.lab03exe02;
 
-/**
- *
- * @author unifgnishi
- */
 public class Pessoa {
+    protected String nome, endereco;
+    protected double renda;
     
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+    public void setEndereco(String endereco){
+        this.endereco = endereco;
+    }
+    public void setRenda(double renda){
+        this.renda = renda;
+    }
+    
+    public String getNome(){
+        return this.nome;
+    }
+    public String getEndereco(){
+        return this.endereco;
+    }
+    public double getRenda(){
+        return this.renda;
+    }
 }
