@@ -23,4 +23,10 @@ public class ContaComum {
     public double getSaldo(){
         return this.saldo;
     }
+    
+    ContaComum(){
+        this.numero = 0;
+        this.senha = 0;
+        this.saldo = 0;
+    }
 }

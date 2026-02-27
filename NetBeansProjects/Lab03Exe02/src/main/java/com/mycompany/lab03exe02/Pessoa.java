@@ -3,6 +3,7 @@ package com.mycompany.lab03exe02;
 public class Pessoa {
     protected String nome, endereco;
     protected double renda;
+    protected ContaComum conta;
     
     public void setNome(String nome){
         this.nome = nome;
