@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.aula05exe02;
 
-/**
- *
- * @author unifgnishi
- */
 public class Politico {
     protected String nome, partido, estado, funcao;
     
@@ -20,6 +12,32 @@ public class Politico {
         this.partido = partido;
         this.estado = estado;
         this.funcao = funcao;
+    }
+    
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+    public void setPartido(String partido){
+        this.partido = partido;
+    }
+    public void setEstado(String estado){
+        this.estado = estado;
+    }
+    public void setFuncao(String funcao){
+        this.funcao = funcao;
+    }
+    
+    public String getNome(){
+        return this.nome;
+    }
+    public String getPartido(){
+        return this.partido;
+    }
+    public String getEstado(){
+        return this.estado;
+    }
+    public String getFuncao(){
+        return this.funcao;
     }
     
 }
