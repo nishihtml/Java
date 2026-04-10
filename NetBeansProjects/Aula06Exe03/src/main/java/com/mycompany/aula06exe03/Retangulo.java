@@ -6,8 +6,8 @@ public class Retangulo extends Forma{
     public Retangulo() {
     }
 
-    public Retangulo(double comprimento, double largura, String tipo) {
-        super(tipo);
+    public Retangulo(double comprimento, double largura) {
+        super("Retangulo");
         this.comprimento = comprimento;
         this.largura = largura;
     }
@@ -31,9 +31,9 @@ public class Retangulo extends Forma{
     }
     @Override
     public void print(){
-        System.out.println("Tipo.........:" + super.getTipo());
-        System.out.println("Comprimento..:" + this.comprimento);
-        System.out.println("Largura......:" + this.largura);
-        System.out.println("Perimetro....:" + this.perimetro());
+        System.out.println("Tipo.........: " + super.getTipo());
+        System.out.println("Comprimento..: " + this.comprimento);
+        System.out.println("Largura......: " + this.largura);
+        System.out.println("Perimetro....: " + this.perimetro());
     }
 }

@@ -18,12 +18,16 @@ public class CheckingAccount extends Account {
 
     @Override
     public void debit(double salario) {
-        (super.salario = taxaTransacao*(super.salario - salario);
+        if(salario <= this.salario * taxaTransacao){
+            super.salario = super.salario - (salario * taxaTransacao);
+        }else{
+            System.out.println("Saldo insuficiente");
+        }
     }
 
     @Override
     public void credit(double salario) {
-        super.credit(salario);
+        super.salario = super.salario + (salario*(1 - taxaTransacao));
     }
             
             

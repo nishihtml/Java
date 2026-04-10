@@ -28,4 +28,8 @@ public class Data {
     public int getAno() {
         return ano;
     }
+    
+    public String print(){
+        return this.dia + "/" + this.mes + "/" + this.ano;
+    }
 }

@@ -34,6 +34,6 @@ public class Pessoa {
     public void print(){
         System.out.println("Nome: " + this.nome);
         System.out.println("CPF: " + this.cpf);
-        System.out.println("Data de Nascimento: " + this.nascimento);
+        System.out.println("Data de Nascimento: " + this.nascimento.print());
     }
 }

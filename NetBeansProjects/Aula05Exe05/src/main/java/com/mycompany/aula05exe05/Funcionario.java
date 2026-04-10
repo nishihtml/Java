@@ -27,6 +27,6 @@ public class Funcionario extends Pessoa{
     public void print(){
         super.print();
         System.out.printf( "Salario: %.2f \n", this.salario);
-        System.out.println("Data de Admissao: " + this.admissao);
+        System.out.println("Data de Admissao: " + this.admissao.print());
     }
 }

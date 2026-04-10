@@ -28,6 +28,6 @@ public class Gerente extends Funcionario{
     public void print(){
         super.print();
         System.out.println("Departamento: " + this.departamento);
-        System.out.println("Data de Promocao: " + this.promocaoGerente);
+        System.out.println("Data de Promocao: " + this.promocaoGerente.print());
     }
 }

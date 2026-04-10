@@ -28,9 +28,9 @@ public class Circulo extends Forma{
     }
     @Override
     public void print(){
-        System.out.println("Tipo.......:" + super.getTipo());
-        System.out.println("Raio.......:" + this.raio);
-        System.out.println("Perimetro..:" + this.perimetro());
-        System.out.println("Area.......:" + this.area());
+        System.out.println("Tipo.......: " + super.getTipo());
+        System.out.println("Raio.......: " + this.raio);
+        System.out.println("Perimetro..: " + this.perimetro());
+        System.out.println("Area.......: " + this.area());
     }
 }

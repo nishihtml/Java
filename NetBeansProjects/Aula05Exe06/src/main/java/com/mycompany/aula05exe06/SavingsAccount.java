@@ -16,8 +16,6 @@ public class SavingsAccount extends Account{
         this.taxaJuros = taxaJuros;
     }
     
-    
-    
     public Double calculateInterest(){
         return super.getSalario() * this.taxaJuros;
     }
